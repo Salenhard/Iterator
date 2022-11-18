@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\LinkedList">
+      <UniqueIdentifier>{9c752741-09c3-4f33-a755-809de3fd73e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\LinkedList">
+      <UniqueIdentifier>{89b61f8f-ed96-4095-8182-be49fc59dbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Iterator">
+      <UniqueIdentifier>{07bdb728-230c-4d83-b695-f70387ff1176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Iterator">
+      <UniqueIdentifier>{16c02367-686d-4eea-b9c3-03ad6b73b147}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LinkedList\LinkedList.cpp">
+      <Filter>Исходные файлы\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList\List2.cpp">
+      <Filter>Исходные файлы\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList\Node.cpp">
+      <Filter>Исходные файлы\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="Iterator.cpp">
+      <Filter>Исходные файлы\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Исходные файлы\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="SeqList.cpp">
+      <Filter>Исходные файлы\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="SeqListIterator.cpp">
+      <Filter>Исходные файлы\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayIterator.cpp">
+      <Filter>Исходные файлы\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="labaIterator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkedList\LinkedList.h">
+      <Filter>Файлы заголовков\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList\List2.h">
+      <Filter>Файлы заголовков\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList\Node.h">
+      <Filter>Файлы заголовков\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>Файлы заголовков\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Файлы заголовков\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="SeqList.h">
+      <Filter>Файлы заголовков\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="SeqListIterator.h">
+      <Filter>Файлы заголовков\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayIterator.h">
+      <Filter>Файлы заголовков\Iterator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
